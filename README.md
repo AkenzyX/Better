@@ -1,62 +1,72 @@
-# Interstellar V5
+<div align="center">
+    <h1>Interstellar Proxy</h1>
+    </div>
+One of the most popular web proxies, used by over 5.7 million people in 2023.
 
-Interstellar is one of the most modern and popular unblocking sites. 
+### Consider joining our[ Discord Community](https://discord.gg/interstellar)
 
-### [Join our Discord!](https://discord.gg/interstellar)
-## Features
+> If you find this project useful, consider giving it a star in the original repository.
 
-- About:Blank Cloaking
-- Fast Speeds 
-- Wide collection of Games.
-- Tab Cloaking
-- Wide collection of Apps
+<h2 align="center">Features</h2>
+<ul>
+    <li>About:Blank Cloaking</li>
+    <li>Fast Speeds</li>
+    <li>Wide collection of Games</li>
+    <li>Tab Cloaking</li>
+    <li>Wide collection of Apps</li>
+    <li>Built-In Tab System</li>
+    <li>Clean UI</li>
+    <li>Inspect Element</li>
+    <li>Now.GG Suppot</li>
+    <li>Built in Password Protection</li>
+    <li>Geforce Now Support</li>
+</ul>
 
-## Deploying
+<h2 align="center">Deployment</h2>
 
-You can **NOT** deploy to Vercel, Netlify, Cloudflare Pages or any other **Static** Web Host.
+### Easy Deployment
+
+**Note:** You **cannot** deploy to static web hosts, including Netlify, Cloudflare Pages, and GitHub Pages.
 
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://replit.com/github/interstellarnetwork/interstellar"><img alt="Run on Replit" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg"></a>
-<a target="_blank" href="https://glitch.com/edit/#!/import/github/interstellarnetwork/interstellar"><img alt="Remix on Glitch" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg"></a>
-<a target="_blank" href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.web%2Fwebapp-linux-node%2Fazuredeploy.json"><img alt="Deploy to Azure" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/azure.svg"></a>
-<a target="_blank" href="https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to IBM Cloud" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/ibmcloud.svg"></a>
-<a target="_blank" href="https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to Amplify Console" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/amplifyconsole.svg"></a>
-<a target="_blank" href="https://deploy.cloud.run/?git_repo=https://github.com/interstellarnetwork/interstellar"><img alt="Run on Google Cloud" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/googlecloud.svg"></a>
-<a target="_blank" href="https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/interstellarnetwork/interstellar/archive/refs/heads/main.zip"><img alt="Deploy to Oracle Cloud" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg"></a>
-<a target="_blank" href="https://railway.app/new/template?template=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy on Railway" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/railway.svg"></a>
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/interstellarnetwork/interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a target="_blank" href="https://render.com/deploy?repo=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
-<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/interstellarnetwork/interstellar"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
+<a target="_blank" href="https://render.com/deploy?repo=https://github.com/InterstellarNetwork/IN-Render"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
+<a target="_blank" href="https://app.cyclic.sh/api/app/deploy/interstellarnetwork/Interstellar"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
 
-## Deploy to Replit
+## Deployment Alternatives:
 
-1. Create a Replit Account (https://replit.com)
+For more deployment options join our [Discord Server](https://discord.gg/interstellar) for tons of different ways to deploy Interstellar.
 
-2. Click **+ Create Repl**
+#### What happened to Replit Deployment?
 
-3. Click **Template** and Change the language to **Node.js**
+As of January 1st 2024, Replit is [no longer free](https://blog.replit.com/hosting-changes). Try GitHub Codespaces instead.
 
-4. Then click **Create Repl**
+### GitHub Codespaces:
 
-5. Click **Shell**
-- Paste the code below. (Ctrl + Shift + V)
+1. Create a GitHub account if you haven't already.
+2. Click "Code" (green button) and then "Create Codespace on main."
+3. In the terminal at the bottom, paste `npm i && npm run start`.
+4. Respond to the application popup by clicking "Make public."
+   > Make sure you actually click the "Make public." button, or the proxy won't function properly.
+5. Access the deployed website from the ports tab.
+6. For subsequent uses in the same codespace, just run `npm run start`
+### Solution for if there is no popup.
+1. Edit the ``index.js`` file and edit the **Port** to a different number, don't use 8080.
+2. Click Terminal, and paste `npm i && npm run start`.
+3. Go to the ports tab, Click Foward A Port, And type the port number.
+4. Right click Visibility and set Port Visibility to Public.
 
-- `git clone https://github.com/interstellarnetwork/interstellar`
 
-6. Once it's done cloning paste the code below. (Ctrl + Shift + V)
+## Need Help with Deployment?
 
-- ``cd interstellar && npm i && npm run start``
+If you're having trouble, reach out to us on [Discord](https://discord.gg/interstellar) for personalized support.
 
-## If you need any help with deploying, join our Discord!
-- https://discord.gg/interstellar
+### Report Issues:
+
+If you encounter problems, open an issue on GitHub, and we'll address it promptly.
 
 # Credits
-Huge thanks to following people for contributing to Interstellar V5.
-- https://github.com/imbubbo
-- https://github.com/joetheshmoe
-- https://github.com/juniorbutyeah
-- https://github.com/RisingGlitch
-- https://github.com/DevDevil-RBLX
-- https://github.com/slay3rzz
-- https://github.com/Bigfoot9999
 
+A huge thank you to all of the people who have contributed to Interstellar.
+
+[![Contributors](https://contrib.rocks/image?repo=InterstellarNetwork/Interstellar)](https://github.com/InterstellarNetwork/Interstellar/graphs/contributors)
